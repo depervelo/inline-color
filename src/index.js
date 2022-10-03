@@ -218,7 +218,7 @@ export default class InlineColor {
 
 		// 글자색 타이틀
 		const colorTitleElement = this._make('div', this.CSS.menuTitle);
-		colorTitleElement.innerHTML = '배경';
+		colorTitleElement.innerHTML = '색';
 		colorGroupElement.appendChild(colorTitleElement);
 
 		// 글자색 목록
